@@ -1,3 +1,3 @@
 export default async function Page() {
-  return <div>tracker</div>;
+  return <div>login</div>;
 }

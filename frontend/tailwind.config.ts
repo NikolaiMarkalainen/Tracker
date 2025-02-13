@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         primary: "#acd268",
+        primary_hover: "#c3e380",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

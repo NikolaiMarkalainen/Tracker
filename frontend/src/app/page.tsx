@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div> / route </div>;
+  return <div> Start tracking your progress with Tracker </div>;
 }

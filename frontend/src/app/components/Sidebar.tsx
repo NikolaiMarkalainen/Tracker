@@ -10,18 +10,22 @@ export const Sidebar = () => {
     {
       iconName: "home.svg",
       childText: "Home",
+      path: "/",
     },
     {
       iconName: "user.svg",
       childText: "Profile",
+      path: "/profile",
     },
     {
       iconName: "running.svg",
       childText: "Activity",
+      path: "/activity",
     },
     {
       iconName: "stats.svg",
       childText: "Statistics",
+      path: "/statistics",
     },
   ];
 
@@ -49,6 +53,7 @@ export const Sidebar = () => {
             key={index}
             iconName={item.iconName}
             childText={item.childText}
+            path={item.path}
             collapsed={collapsed}
           />
         ))}
