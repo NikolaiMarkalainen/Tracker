@@ -7,11 +7,12 @@ export const Sidebar = () => {
   return (
     <div
       className={`flex flex-col h-screen bg-primary text-black ${
-        collapsed ? "w-56" : "w-36"
+        collapsed ? "w-56" : "w-24"
       }`}
     >
-      <div className="flex flex-row justify-around">
-        <h1 className={`m-5 ${collapsed ? "text-3xl" : "text-xl"}`}>Tracker</h1>
+      <div className="flex flex-row justify-around m-5 mb-10">
+        {collapsed && <h1 className="text-3xl">Tracker</h1>}
+
         <Image
           src={`${collapsed ? "./angle-left.svg" : "./angle-right.svg"}`}
           onClick={() => setCollapsed(!collapsed)}
