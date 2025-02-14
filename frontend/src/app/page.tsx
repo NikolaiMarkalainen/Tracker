@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "./components/shared/Button";
+import { Button } from "../components/shared/Button";
 
 export default function Home() {
   return (

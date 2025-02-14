@@ -11,7 +11,7 @@ export const SliderBarChild = (props: ISidebar) => {
       onClick={() => router.push(props.path)}
     >
       <Image src={props.iconName} alt="logo" width={32} height={32} />
-      {props.collapsed && <p>{props.childText}</p>}
+      {props.collapsed && <p className="content-end">{props.childText}</p>}
     </li>
   );
 };

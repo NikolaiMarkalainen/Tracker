@@ -43,7 +43,7 @@ export const Sidebar = () => {
           alt="hide"
           width={24}
           height={24}
-          className="ml-auto mr-5"
+          className="ml-auto mr-5 cursor-pointer hover:bg-primary_hover"
         />
       </div>
 
