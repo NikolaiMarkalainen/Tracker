@@ -46,9 +46,9 @@ export const Sidebar = () => {
           src={`${collapsed ? "./angle-left.svg" : "./angle-right.svg"}`}
           onClick={() => setCollapsed(!collapsed)}
           alt="hide"
-          width={24}
-          height={24}
-          className="ml-auto mr-5 cursor-pointer hover:bg-primary_hover"
+          width={32}
+          height={32}
+          className="ml-5 mr-5 cursor-pointer hover:bg-primary_hover justify-center"
         />
       </div>
 

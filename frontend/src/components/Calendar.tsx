@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export const Calendar = () => {
-  const [currentDate, setCurrentDate] = useState<Date>(new Date());
+  const [currentDate] = useState<Date>(new Date());
   const getMonthDays = (date: Date) => {
     const year = date.getFullYear();
     const month = date.getMonth();
