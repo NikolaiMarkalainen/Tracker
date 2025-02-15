@@ -27,6 +27,11 @@ export const Sidebar = () => {
       childText: "Statistics",
       path: "/statistics",
     },
+    {
+      iconName: "calendar-lines.svg",
+      childText: "Calendar",
+      path: "/calendar",
+    },
   ];
 
   return (

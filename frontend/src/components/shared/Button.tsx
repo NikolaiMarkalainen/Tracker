@@ -1,10 +1,10 @@
 import React from "react";
 
-interface ButtonProperties extends React.ComponentPropsWithoutRef<"button"> {
+interface IButtonProperties extends React.ComponentPropsWithoutRef<"button"> {
   primaryButton?: boolean;
 }
 
-export const Button: React.FC<ButtonProperties> = ({
+export const Button: React.FC<IButtonProperties> = ({
   primaryButton,
   className,
   ...props
